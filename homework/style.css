@@ -79,13 +79,13 @@ section p {
 }
 footer {
     background-color: lightskyblue;
-    margin-top: 45px;
+    margin-top: 40px;
 }
 table,
 td {
-    margin-top: 50px;
+    margin-top: 40px;
     border: 1px solid black;
-    font-size: 12px;
+    font-size: 16px;
 }
 table {
     border-collapse: collapse;
