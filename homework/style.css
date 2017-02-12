@@ -97,7 +97,6 @@ td {
 .middle table {
     border-collapse: collapse;
     border: 1px solid black;
-    width: 70px;
     margin-left: 30px;
 }
 
@@ -155,8 +154,8 @@ td {
     }
     section h4 {
         text-align: left;
-        margin-bottom: 6px;
-        padding-left: 1em;
+        margin-bottom: 8px;
+        padding-left: 1.5em;
     }
     section h4 + h4 {
         padding-left: 3em;
