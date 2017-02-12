@@ -24,24 +24,25 @@ header h1 {
 
 .top {
     border-style: solid;
-    background-color: lightskyblue;
+    background-color: hsla(200, 100%, 60%, 0.4);
     width: 100%;
     height: 100%;
 }
 
 nav ul {
-    text-align: right;
-    margin-right: 10px;
+    text-align: center;
+    margin-right: .5em;
 }
 
 nav li {
     display: inline-block;
-    background-color: lightskyblue;
-    padding: 2px;
-    width: 70px;
+    background-color: lightblue;
+    padding: 5px;
+    width: 7em;
     text-align: center;
     border: solid;
-    font-size: 12px;
+    font-size: 20px;
+    font-style: oblique;
 }
 
 body {
@@ -49,15 +50,13 @@ body {
     width: 100%;
     height: 100%;
     margin: 0px;
+    background-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSLo5ikwfFdeWEa91k6fCvlCrHhcvYczKKmU5YBIzskyRMcwRvXFA);
+    background-size: 100%;
 }
 
 section h2 {
     padding-left: 10px;
     margin: 0px
-}
-
-section {
-    background-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSLo5ikwfFdeWEa91k6fCvlCrHhcvYczKKmU5YBIzskyRMcwRvXFA);
 }
 
 h4 {
@@ -72,7 +71,7 @@ h4 + h4 {
 }
 
 img {
-    margin-left: 20px;
+    margin-left: 1em;
 }
 
 section p {
@@ -82,26 +81,85 @@ section p {
 
 .temp-box {
     width: 100%;
-    height: 260px;
+    height: 270px;
 }
 
 footer {
-    background-color: lightskyblue;
-    margin-top: 40px;
+    margin-left: 0.5em;
 }
 
-table,
+.middle table,
 td {
-    margin-top: 40px;
-    border: 1px solid black;
-    font-size: 16px;
+    margin-top: 10px;
+    font-size: 20px;
 }
 
-table {
+.middle table {
     border-collapse: collapse;
-    width: 100%;
+    border: 1px solid black;
+    width: 70px;
+    margin-left: 30px;
 }
 
-td {
+.middle td {
     padding: 10px;
+}
+
+.hide {
+    display: none;
+}
+
+@media screen and (min-width: 32em) {
+    section h2 {
+        text-align: center;
+    }
+    nav ul {
+        text-align: right;
+    }
+    .hide {
+        display: block;
+    }
+    .hide h5 {
+        margin-left: 1em;
+    }
+    .hide table,
+    tr,
+    th,
+    td {
+        border: 1px solid black;
+        font-size: 25px;
+    }
+    .hide table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    .hide td {
+        text-align: center;
+        padding: 10px;
+    }
+}
+
+@media screen and (min-width: 60em) {
+    .top h4 {
+        font-size: 30px;
+    }
+    .top h2 {
+        font-size: 40px;
+    }
+    .temp-box p {
+        margin-top: 0px;
+    }
+    section h2 {
+        text-align: left;
+        padding-left: 1em;
+    }
+    section h4 {
+        text-align: left;
+        margin-bottom: 6px;
+        padding-left: 1em;
+    }
+    section h4 + h4 {
+        padding-left: 3em;
+        margin-bottom: 2px;
+    }
 }
