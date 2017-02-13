@@ -97,7 +97,7 @@ td {
 .middle table {
     border-collapse: collapse;
     border: 1px solid black;
-    margin-left: 30px;
+    margin-left: 10px;
 }
 
 .middle td {
@@ -136,6 +136,10 @@ td {
         text-align: center;
         padding: 10px;
     }
+    .middle table {
+        margin-left: 200px;
+        ;
+    }
 }
 
 @media screen and (min-width: 60em) {
@@ -154,11 +158,14 @@ td {
     }
     section h4 {
         text-align: left;
-        margin-bottom: 8px;
+        margin-bottom: 10px;
         padding-left: 1.5em;
     }
     section h4 + h4 {
         padding-left: 3em;
         margin-bottom: 2px;
+    }
+    .middle table {
+        margin-left: 30px;
     }
 }
