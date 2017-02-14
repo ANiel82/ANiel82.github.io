@@ -35,16 +35,17 @@ header h1 {
 }
 
 nav ul {
-    text-align: center;
     margin-right: .5em;
+    display: flex;
+    justify-content: flex-end;
 }
 
 nav li {
-    display: inline-block;
-    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    background-color: hsla(200, 100%, 60%, 0.4);
     padding: 5px;
     width: 7em;
-    text-align: center;
     border: solid;
     font-size: 20px;
     font-style: oblique;
@@ -59,12 +60,12 @@ body {
 
 body.frank {
     background-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSLo5ikwfFdeWEa91k6fCvlCrHhcvYczKKmU5YBIzskyRMcwRvXFA);
-    background-size: 100%;
+    background-size: cover;
 }
 
 body.green {
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU3aiALKCVFnQk7z59kxMC_3XuhJmoL48PkCrYV7-iiKi3iz8Ozw);
-    background-size: 100%;
+    background-size: cover;
 }
 
 .ville,
