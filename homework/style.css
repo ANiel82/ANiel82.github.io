@@ -16,10 +16,11 @@ main {
 }
 
 header h1 {
+    display: flex;
+    justify-content: center;
     padding-right: 20px;
     margin-bottom: -0.5em;
     border: 10px;
-    text-align: center;
 }
 
 .top {
@@ -63,15 +64,17 @@ body.frank {
     background-size: cover;
 }
 
-body.green {
+body.greenville {
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU3aiALKCVFnQk7z59kxMC_3XuhJmoL48PkCrYV7-iiKi3iz8Ozw);
     background-size: cover;
 }
 
-.ville,
+.last,
 .bottom,
 .high,
-.second {
+.second,
+.one1,
+.two2 {
     background-color: hsla(600, 50%, 80%, 0.4);
 }
 
@@ -81,12 +84,14 @@ section h2 {
 }
 
 h4 {
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 h4 + h4 {
+    display: flex;
+    justify-content: center;
     margin-top: -.5em;
-    text-align: center;
     font-size: 30px;
     margin-bottom: -0.8em;
 }
@@ -109,62 +114,63 @@ footer {
     margin-left: 0.5em;
 }
 
-.middle table,
-td {
-    margin-top: 10px;
-    font-size: 20px;
-}
-
-.middle table {
-    border-collapse: collapse;
+.first,
+.last {
+    display: flex;
     border: 1px solid black;
-    margin-left: 10px;
+    flex-direction: column;
+    width: 250px;
+    margin-left: 20px;
 }
 
-.middle td {
-    padding: 10px;
+.one,
+.two,
+.one1,
+.two2 {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 0px;
+    margin: -1px;
 }
 
-.hide {
-    display: none;
+.one li,
+.two li,
+.one1 li,
+.two2 li {
+    display: flex;
+    border: 1px solid black;
+    width: 100%;
+    height: 40px;
+    justify-content: center;
+    padding: 5px;
+}
+
+.hide h5 {
+    margin-left: 20px;
 }
 
 @media screen and (min-width: 32em) {
     section h2 {
-        text-align: center;
+        display: flex;
+        justify-content: center;
     }
     nav ul {
-        text-align: right;
+        display: flex;
+        justify-content: center;
     }
     .top,
     .high {
         width: 400px;
         margin-left: 180px;
     }
-    .hide {
-        display: block;
-    }
     .hide h5 {
         margin-left: 1em;
         font-size: 20px;
     }
-    .hide table,
-    tr,
-    th,
-    td {
-        border: 1px solid black;
-        font-size: 25px;
-    }
-    .hide table {
-        width: 100%;
-        border-collapse: collapse;
-    }
-    .hide td {
-        text-align: center;
-        padding: 10px;
-    }
-    .middle table {
-        margin-left: 200px;
+    .first,
+    .last {
+        margin-left: 250px;
     }
 }
 
@@ -186,19 +192,25 @@ td {
         margin-top: 0px;
     }
     section h2 {
-        text-align: left;
-        padding-left: 1em;
+        display: flex;
+        justify-content: center;
     }
     section h4 {
-        text-align: left;
+        display: flex;
+        justify-content: center;
         margin-bottom: 15px;
-        padding-left: 1.5em;
     }
     section h4 + h4 {
-        padding-left: 3em;
+        display: flex;
+        justify-content: center;
         margin-bottom: 4px;
     }
-    .middle table {
-        margin-left: 30px;
+    .first,
+    .last {
+        margin-left: 20px;
+    }
+    nav ul {
+        display: flex;
+        justify-content: flex-end;
     }
 }
