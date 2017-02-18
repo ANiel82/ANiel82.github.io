@@ -8,7 +8,7 @@ body {
     width: 900px;
     height: 500px;
     margin: 60px;
-    position: relative;
+    position: ;
 }
 
 h1 {
@@ -21,7 +21,7 @@ p {
 }
 
 img {
-    position: absolute;
-    bottom: -75px;
-    right: 50px;
+    position: ;
+    bottom: 0px;
+    right: 0px;
 }
