@@ -88,12 +88,11 @@ h4 {
     justify-content: center;
 }
 
-h4 + h4 {
+h3 {
     display: flex;
     justify-content: center;
-    margin-top: -.5em;
     font-size: 30px;
-    margin-bottom: -0.8em;
+    margin-bottom: -1em;
 }
 
 img {
