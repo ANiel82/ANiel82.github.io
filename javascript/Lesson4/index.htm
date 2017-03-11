@@ -9,7 +9,17 @@
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     <script>
         $(function () {
-            // jQuery Code goes here
+            $('.coreValues').prepend("<li><strong>This is brand new!!</strong></li>");
+            $("<li><strong>This is also great!!</strong></li>").prependTo('.coreValues')
+
+            var nameVal = $('input[name="nameVal"]');
+
+            function FillEmpty() {
+                if (nameVal.val() == '') {
+                    nameVal.val('John Doe');
+                }
+            }
+            $('#ReqAQuoteBtn').click(FillEmpty);
 
         })
     </script>
