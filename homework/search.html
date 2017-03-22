@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="/homework/search.js"></script>
+    <title>CIT230 Weather Site and Java</title>
+</head>
+
+
+<body class="frank">
+    <header>
+        <h1>Local Weather</h1>
+
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Franklin</a></li>
+                <li><a href="greenville.html">Greenville</a></li>
+                <li><a href="">Springfield</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <form method="get" action="//autocomplete.wunderground.com/aq" id="srchfrm">
+            <input type="search" name="query" id="query">
+            <input type="submit" name="submit" value="Search" id="send">
+        </form>
+        <section id="searchResults">
+            <h2>Search Results</h2>
+        </section>
+
+
+        <div class="top">
+            <section class="temp-box">
+                <h2 id="city"></h2>
+
+                <h3>Temperature</h3>
+                <h4 id="temp"></h4>
+
+                <p>Sunny</p>
+                <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQyMtBIiP7b2CxhS9xfuZE4kz5XgnwnIb4fUcxVW-fiMlzbOBDO_A" alt="Sunny Picture" style="width:40px;">
+            </section>
+        </div>
+
+        <div class="middle">
+
+            <ul class="first">
+                <li>Wind Speed:</li>
+                <li id="add1"></li>
+                <li>Feels Like:</li>
+                <li id="add2"></li>
+                <li>Humidity:</li>
+                <li id="add3"></li>
+
+            </ul>
+
+            <a href="https://wireframe.cc/QOF76P">Wireframe</a>
+            <a href="https://wireframe.cc/0HlEjn">Medium Wireframe</a>
+            <a href="https://wireframe.cc/scUa7v">Large Wireframe</a>
+        </div>
+        <div class="hide">
+            <h5>Hourly</h5>
+
+            <ul class="one">
+                <li>0</li>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+                <li>7</li>
+                <li>8</li>
+                <li>9</li>
+                <li>10</li>
+                <li>11</li>
+                <li>12</li>
+                <li>13</li>
+                <li>14</li>
+                <li>15</li>
+                <li>16</li>
+                <li>17</li>
+                <li>18</li>
+                <li>19</li>
+                <li>20</li>
+
+            </ul>
+            <ul class="two">
+                <li>67</li>
+                <li>67</li>
+                <li>69</li>
+                <li>69</li>
+                <li>69</li>
+                <li>70</li>
+                <li>69</li>
+                <li>72</li>
+                <li>74</li>
+                <li>77</li>
+                <li>79</li>
+                <li>81</li>
+                <li>84</li>
+                <li>86</li>
+                <li>88</li>
+                <li>90</li>
+                <li>90</li>
+                <li>85</li>
+                <li>83</li>
+                <li>79</li>
+                <li>75</li>
+            </ul>
+
+        </div>
+    </main>
+
+    <footer>
+        <p>Last updated 2-15-17</p>
+    </footer>
+
+</body>
+
+</html>
