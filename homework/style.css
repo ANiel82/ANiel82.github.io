@@ -150,6 +150,16 @@ footer {
     margin-left: 20px;
 }
 
+form {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+#searchResults {
+    margin-top: 40px;
+}
+
 @media screen and (min-width: 32em) {
     section h2 {
         display: flex;

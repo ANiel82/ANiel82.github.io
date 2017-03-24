@@ -12,11 +12,9 @@ $(function () {
                     output += '<a href="http://www.wunderground.com' + val.l + '" title="See results for ' + val.name + '">' + val.name + '</a>';
                     output += '</li>';
                 }
-            }); // end each
+            });
             output += '</ol>';
             $("#searchResults").html(output);
-
-
         })
     });
 });
