@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width">
     <link type="text/css" rel="stylesheet" href="style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="/homework/search.js"></script>
+    <script src="/homework/newsearchscript.js"></script>
     <title>CIT230 Weather Site and Java</title>
 </head>
 
@@ -26,16 +26,17 @@
         </nav>
 
     </header>
-
+    <section id="searchResults">
+        <h2>Search Results</h2>
+    </section>
+    <form method="get" action="//autocomplete.wunderground.com/aq" id="srchfrm">
+        <input type="search" name="query" id="query">
+        <input type="submit" name="submit" value="Search" id="send">
+    </form>
     <main>
 
-        <section id="searchResults">
-            <h2>Search Results</h2>
-        </section>
-        <form method="get" action="//autocomplete.wunderground.com/aq" id="srchfrm">
-            <input type="search" name="query" id="query">
-            <input type="submit" name="submit" value="Search" id="send">
-        </form>
+
+
 
         <div class="top">
             <section class="temp-box">

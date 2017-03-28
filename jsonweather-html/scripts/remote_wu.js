@@ -35,10 +35,10 @@ $(function () {
 
                 $('#summary').text(data.current_observation.weather);
 
-                $('#currentTemp').text(data.current_observation.temp_f);
+                $('#currentTemp').text(data.current_observation.temp_f + String.fromCharCode(176) + "f");
 
                 $('#add1').text(data.current_observation.wind_string);
-                $('#add2').text(data.current_observation.feelslike_f);
+                $('#add2').text(data.current_observation.feelslike_f + String.fromCharCode(176) + "f");
                 $('#add3').text(data.current_observation.relative_humidity);
 
 
