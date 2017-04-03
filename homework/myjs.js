@@ -12,7 +12,7 @@ jQuery(document).ready(function ($) {
 
                 var choco = $('#Chocolate');
                 var cara = $('#Caramel');
-                var redv = $('#Red');
+                var redv = $('#RedV');
 
                 choco.display(Image)
 
