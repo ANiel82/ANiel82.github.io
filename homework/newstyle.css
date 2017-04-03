@@ -168,11 +168,11 @@ footer {
 
 @media screen and (min-width: 60em) {
     h1 {
-        font-size: 60px;
+        font-size: 40px;
         margin-top: -3em;
     }
     img {
-        width: 200px;
+        max-width: 100%;
     }
     nav ul {
         margin-top: 7em;
