@@ -1,22 +1,24 @@
 jQuery(document).ready(function ($) {
     function ajaxFromLocalJson(locationToGrab) {
         $.ajax({
-            url: "treats.json",
+            url: "../treats.json",
             dataType: "json",
             success: function (data) {
                 console.log(data);
-                var location = data[locationToGrab]['City'];
-                var temp_f = data[locationToGrab]['High'];
-                var state = data[locationToGrab]['State'];
-                console.log("Current temperature in " + location + " is: " + temp_f);
+                var choco = data[locationToGrab]['Chocolate'];
+                var cara = data[locationToGrab]['Caramel'];
+                var redv = data[locationToGrab]['Red'];
+                console.log(choco);
 
-                var cur_location = $('#location');
-                var temp = $('#temp');
-                var message = $('#message');
+                var choco = $('#Chocolate');
+                var cara = $('#Caramel');
+                var redv = $('#Red');
 
-                cur_location.text(location + ', ' + state);
-                temp.text(temp_f);
-                message.text("Current tempuature in " + location + "is " + temp_f);
+                choco.display(Image)
+
+                //                cur_location.text(location + ', ' + state);
+                //                temp.text(temp_f);
+                //                message.text("Current tempuature in " + location + "is " + temp_f);
             }
         });
     }
