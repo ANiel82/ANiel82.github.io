@@ -69,7 +69,8 @@ h2 {
 }
 
 #days img {
-    width: 150px;
+    max-width: 100%;
+    height: auto;
     margin-top: 3em;
     margin: 30px;
     border: 1px solid black;
@@ -130,6 +131,10 @@ footer {
     #days li {
         margin-left: -10px;
     }
+    #days img {
+        max-width: 100%;
+        height: auto;
+    }
     .featured-video {
         width: 50%;
         height: auto;
@@ -182,6 +187,10 @@ footer {
         width: 40%;
         height: auto;
         margin-left: 30em;
+    }
+    #days img {
+        max-width: 100%;
+        height: auto;
     }
     #gallary {
         height: auto;
