@@ -170,7 +170,7 @@ footer {
 @media screen and (min-width: 60em) {
     h1 {
         font-size: 40px;
-        margin-top: -3em;
+        margin-top: -2em;
     }
     img {
         max-width: 100%;
@@ -210,11 +210,6 @@ footer {
         bottom: -30px;
         right: 60px;
         font-size: 20px;
-    }
-    .long {
-        position: absolute;
-        bottom: -35px;
-        right: 20px;
     }
     footer {
         width: 99%;
