@@ -23,7 +23,6 @@ img {
 h1 {
     display: flex;
     justify-content: center;
-    margin-top: -2em;
 }
 
 nav ul {
