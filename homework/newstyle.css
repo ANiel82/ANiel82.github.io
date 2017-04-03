@@ -13,6 +13,7 @@ h6 {
 
 body {
     background-color: pink;
+    position: relative;
 }
 
 img {
@@ -44,13 +45,22 @@ nav li {
     font-style: oblique;
 }
 
-li:hover {
-    background-color: aliceblue;
+li > ul {
+    position: relative;
+    width: 190px;
+    clear: both;
 }
 
 h2 {
     display: flex;
     justify-content: center;
+}
+
+.featured-video {
+    display: block;
+    width: 60%;
+    height: auto;
+    margin-left: 3em;
 }
 
 #days {
@@ -65,23 +75,48 @@ h2 {
     border: 1px solid black;
 }
 
+#days li {
+    display: inline-flex;
+    margin-left: 20px;
+}
+
 #gallary {
     margin-top: 2em;
     border: 10px solid turquoise;
-    float: left;
-    width: 100%
+    width: 100%;
+    height: auto;
 }
 
 #gallary img {
-    width: 100px;
-    height: 100px;
+    max-width: 100%;
+    height: auto;
     border: 1px solid black;
     margin: 20px;
+}
+
+#gallary li {
+    display: inline-flex;
+    margin-left: -10px;
+    position: relative;
+}
+
+#gallary ul {
+    margin-bottom: 3em;
+}
+
+p {
+    position: absolute;
+    bottom: -20px;
+    right: 50px;
 }
 
 footer {
     position: absolute;
     bottom: 0px;
+    left: 10px;
+    background-color: turquoise;
+    height: 30px;
+    width: 98%
 }
 
 @media screen and (min-width: 32em) {
@@ -92,11 +127,37 @@ footer {
     nav ul {
         margin-top: 5em;
     }
+    #days li {
+        margin-left: -10px;
+    }
+    .featured-video {
+        width: 50%;
+        height: auto;
+        margin-left: 12em;
+    }
+    #gallary {
+        height: auto;
+    }
     #gallary img {
-        width: 150px;
-        height: 150px;
+        max-width: 100%;
+        height: auto;
         border: 1px solid black;
         margin: 20px;
+        margin-top: 40px;
+    }
+    #gallary li {
+        margin-left: 20px;
+    }
+    p {
+        position: absolute;
+        bottom: -35px;
+        right: 60px;
+        font-size: 20px;
+    }
+    .long {
+        position: absolute;
+        bottom: -35px;
+        right: 20px;
     }
 }
 
@@ -117,10 +178,31 @@ footer {
     img {
         margin-left: 70px;
     }
+    .featured-video {
+        width: 40%;
+        height: auto;
+        margin-left: 30em;
+    }
+    #gallary {
+        height: auto;
+    }
     #gallary img {
-        width: 300px;
-        height: 300px;
+        max-width: 100%;
+        height: auto;
         border: 1px solid black;
         margin: 20px;
+    }
+    #days li {
+        margin-left: 200px;
+    }
+    p {
+        position: absolute;
+        bottom: -30px;
+        right: 90px;
+        font-size: 20px;
+    }
+    .long {
+        position: absolute;
+        right: 60px;
     }
 }

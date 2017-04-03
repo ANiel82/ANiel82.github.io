@@ -9,18 +9,18 @@
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     <script>
         $(function () {
-            //$('.dropdownMenu > li').hover(function () {
-
-            // $(this).children("ul").slideDown(200);
-
-            // }, function () {
-
-            // $(this).children("ul").slideUp(200);
-            //})
             $('.dropdownMenu > li').hover(function () {
 
-                $(this).children("ul").slideToggle(200);
-            })
+                    $(this).children("ul").slideDown(200);
+
+                }, function () {
+
+                    $(this).children("ul").slideUp(200);
+                })
+                //            $('.dropdownMenu > li').hover(function () {
+                //
+                //                $(this).children("ul").slideToggle(200);
+                //            })
 
         })
     </script>

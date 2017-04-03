@@ -1,0 +1,41 @@
+{
+    "Cupcakes": {
+        "Chocolate": "images/ChocoCupcake2.jpg",
+        "Caramel": "images/CaraCupcake2.jpg",
+        "Red": "images/RedCupcake2.jpg",
+        "Rasberry": "images/RasCupcake2.jpg",
+        "KeyLime": "images/KeyLimeCupcake.jpg",
+        "Sprinkles": "images/SprinkleCupcake2.jpg",
+        "Vanilla": "images/VanillaCupcake2.jpg",
+        "Oreo": "images/OreoCupcake2.jpg"
+
+    },
+    "Cookies": {
+        "ChocoChip": "images/ChocoChip.jpg",
+        "M&M": "images/M&M.jpg",
+        "Macadamia": "images/Macadamia.jpg",
+        "PeanutButter": "images/PeanutButter.jpg",
+        "Snickerdoodle": "images/Snickerdoodle.jpg",
+        "ChocoChoco": "images/ChocoChoco.jpg"
+
+    },
+    "Cakes": {
+        "Birthday": "images/BirthdayCake.jpg",
+        "ChocolateIceCream": "images/ChocoIceCream.jpg",
+        "GermanChocolate": "images/GermanChoco.jpg",
+        "OreoCake": "images/OreoCake.jpg",
+        "Strawberry": "images/StrawCake.jpg",
+        "VanillaCake": "images/VanillaCake.jpg"
+
+    },
+    "Pies": {
+        "Apple": "images/ApplePie.jpg",
+        "Banana": "images/BananaCream.jpg",
+        "ChocoPie": "images/ChocoPie.jpg",
+        "Lemon": "images/LemonM.jpg",
+        "Peach": "images/PeachPie.jpg",
+        "Pumpkin": "images/PumpkinPie.jpg",
+        "RasPie": "images/RasPie.jpg",
+
+    }
+}
