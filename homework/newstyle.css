@@ -17,7 +17,7 @@ body {
 }
 
 img {
-    width: 150px;
+    width: 160px;
 }
 
 h1 {
@@ -152,6 +152,7 @@ footer {
     }
     #gallary li {
         margin-left: 20px;
+        position: relative;
     }
     p {
         position: absolute;
@@ -207,12 +208,13 @@ footer {
     p {
         position: absolute;
         bottom: -30px;
-        right: 90px;
+        right: 60px;
         font-size: 20px;
     }
     .long {
         position: absolute;
-        right: 60px;
+        bottom: -35px;
+        right: 20px;
     }
     footer {
         width: 99%;
