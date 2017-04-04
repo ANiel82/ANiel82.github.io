@@ -5,8 +5,8 @@ function getData(input) {
         dataType: "json",
         success: function (data) {
             console.log(data);
-            var name = data.;
-            console.log(name);
+            var name =
+                console.log(name);
             $("#Choco").text(name);
         }
     });
@@ -25,4 +25,4 @@ function getData(input) {
         });
 
     });
-});
+}
