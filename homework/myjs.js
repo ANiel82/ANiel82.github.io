@@ -1,27 +1,16 @@
-jQuery(document).ready(function ($) {
-    function ajaxFromLocalJson(locationToGrab) {
-        $.ajax({
-            url: "../treats.json",
-            dataType: "json",
-            success: function (data) {
-                console.log(data);
-                var choco = data[locationToGrab]['Chocolate'];
-                var cara = data[locationToGrab]['Caramel'];
-                var redv = data[locationToGrab]['Red'];
-                console.log(choco);
+function getData(input) {
+    // Get the data from the wunderground API
+    $.ajax({
+        url: "./treats.json",
+        dataType: "json",
+        success: function (data) {
+            console.log(data);
+            var name = data.;
+            console.log(name);
+            $("#Choco").text(name);
+        }
+    });
 
-                var choco = $('#Chocolate');
-                var cara = $('#Caramel');
-                var redv = $('#RedV');
-
-                choco.display(Image)
-
-                //                cur_location.text(location + ', ' + state);
-                //                temp.text(temp_f);
-                //                message.text("Current tempuature in " + location + "is " + temp_f);
-            }
-        });
-    }
 
 
     $(function () {

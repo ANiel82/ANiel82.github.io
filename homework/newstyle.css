@@ -17,21 +17,21 @@ body {
 }
 
 img {
-    width: 160px;
+    width: 200px;
     margin-top: 2em;
+    margin-left: 10px;
 }
 
 h1 {
     display: flex;
     justify-content: center;
-    margin-top: -2em;
+    margin-top: -1em;
 }
 
 nav ul {
     display: flex;
     justify-content: flex-end;
     padding: 0px;
-    margin-top: 2em;
 }
 
 nav li {
@@ -73,13 +73,13 @@ h2 {
     max-width: 100%;
     height: auto;
     margin-top: 3em;
-    margin: 30px;
+    margin: 20px;
     border: 1px solid black;
 }
 
 #days li {
     display: inline-flex;
-    margin-left: 20px;
+    margin-left: 15px;
 }
 
 #gallary {
@@ -191,6 +191,7 @@ footer {
     #days img {
         max-width: 100%;
         height: auto;
+        margin-right: 20px;
     }
     #gallary {
         height: auto;
@@ -207,7 +208,7 @@ footer {
     p {
         position: absolute;
         bottom: -30px;
-        right: 60px;
+        right: 80px;
         font-size: 20px;
     }
     footer {
