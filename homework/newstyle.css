@@ -53,8 +53,7 @@ li > ul {
 }
 
 h2 {
-    display: flex;
-    justify-content: center;
+    margin-left: 15px;
 }
 
 .featured-video {
