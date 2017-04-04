@@ -73,7 +73,7 @@ h2 {
     max-width: 100%;
     height: auto;
     margin-top: 3em;
-    margin: 20px;
+    margin-bottom: 10px;
     border: 1px solid black;
 }
 
@@ -191,7 +191,11 @@ footer {
     #days img {
         max-width: 100%;
         height: auto;
-        margin-right: 20px;
+        margin-bottom: 30px;
+        margin-left: 30px;
+    }
+    #days ul {
+        padding: 0px;
     }
     #gallary {
         height: auto;
