@@ -206,9 +206,7 @@ footer {
         border: 1px solid black;
         margin: 20px;
     }
-    #days li {
-        margin-left: 200px;
-    }
+    #days li {}
     p {
         position: absolute;
         bottom: -30px;
