@@ -172,7 +172,7 @@ footer {
         font-size: 35px;
     }
     img {
-        max-width: 100%;
+        width: 200px;
     }
     nav ul {
         margin-top: 7em;
@@ -207,7 +207,7 @@ footer {
         margin: 20px;
     }
     #days li {
-        margin-left: 200px;
+        margin-left: 350px;
     }
     p {
         position: absolute;
